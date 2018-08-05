@@ -8,8 +8,8 @@ This repo is something I did for my project as a combination of the following tw
 # Quick start
 
 ```
-$ git clone https://github.com/tulik/symfony-4-docker-runtime-env.git
-$ cd symfony-4-docker-runtime-env
+$ git clone https://github.com/edocabhi/symfony4-php-nginx-mariadb-docker.git
+$ cd symfony4-php-nginx-mariadb-docker
 $ docker-compose up
 ```
 - Make sure to configure your environment in symfony config
