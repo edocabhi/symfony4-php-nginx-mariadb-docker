@@ -1,29 +1,9 @@
-# Symfony 4 Docker
-## Minimal Runtime Environment [![Build Status](https://travis-ci.org/tulik/symfony-4-docker-runtime-env.svg?branch=master)](https://travis-ci.org/tulik/symfony-4-docker-runtime-env)  [![symfony 4 docker](https://img.shields.io/badge/dev-symfony%204-F7CA18.svg?style=flat)](https://github.com/tulik/symfony-4-docker-runtime-env)
+# Symfony 4 Docker implementation with AdminLte Bundle and FOS user bundle pre configured
 
+# This repo is something I did for my project as a combination of the following two repos
+- https://github.com/tulik/symfony-4-docker-runtime-env
+- https://github.com/kevinpapst/AdminLTEBundle
 
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tulik/symfony-4-docker-runtime-env/master/documentation/images/logo.png">
-</p>
-
-# Table of content
-- [See it working! Deployed with Travis and Kubernetes](#see-it-working)
-- [Table of content](#table-of-content)
-- [Environment architecture](#environment-architecture)
-- [Quick start](#quick-start)
-- [Video tuturial](#video-tuturial)
-- [Directory structure](#directory-structure)
-
-## See it working! 
-**[Deployed with Travis and Kubernetes](https://symfony-4-docker-runtime-env.tulik.info/)**
- - Further documentation about deployment will be provied.
- 
-# Environment architecture
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tulik/symfony-4-docker-runtime-env/master/documentation/images/schema.png">
-</p>
 
 # Quick start
 
@@ -32,15 +12,9 @@ $ git clone https://github.com/tulik/symfony-4-docker-runtime-env.git
 $ cd symfony-4-docker-runtime-env
 $ docker-compose up
 ```
+- Make sure to configure your environment in symfony config
+
 Wait for containers to start, then to [http://localhost](http://localhost)
-
-## Video tuturial
-<p align="center">
-	<a href="http://www.youtube.com/watch?feature=player_embedded&v=NIEKB5iRcOs
-	" target="_blank"><img src="http://img.youtube.com/vi/NIEKB5iRcOs/0.jpg" 
-	alt="Setup Symfony 4 with Docker in 5 minutes" width="480" height="320" border="0" /></a>
-</p>
-
 
 # Directory structure
 ```
