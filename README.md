@@ -1,6 +1,6 @@
 # Symfony 4 Docker implementation with AdminLte Bundle and FOS user bundle pre configured
 
-# This repo is something I did for my project as a combination of the following two repos
+This repo is something I did for my project as a combination of the following two repos
 - https://github.com/tulik/symfony-4-docker-runtime-env
 - https://github.com/kevinpapst/AdminLTEBundle
 
